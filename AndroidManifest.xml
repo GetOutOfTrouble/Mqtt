@@ -1,12 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="org.eclipse.paho.android.service.sample"
     android:versionCode="1"
-    android:versionName="1.0" >
+    android:versionName="1.0">
 
-    <uses-sdk
-        android:minSdkVersion="11"
-        android:targetSdkVersion="19" />
-    
     <!-- Permissions the Application Requires -->
     <uses-permission android:name="android.permission.WAKE_LOCK" />
     <uses-permission android:name="android.permission.INTERNET" />
@@ -17,46 +14,43 @@
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
-        android:theme="@style/AppTheme" >
-        
+        android:theme="@style/AppTheme">
+
         <!-- Mqtt Service -->
-        <service android:name="org.eclipse.paho.android.service.MqttService" >
-        </service>
+        <service android:name="org.eclipse.paho.android.service.MqttService" />
 
         <!-- Main Activity -->
-        <activity android:name="org.eclipse.paho.android.service.sample.ClientConnections" >
-           <intent-filter>
+        <activity android:name=".ClientConnections">
+            <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter> 
+            </intent-filter>
         </activity>
 
         <!-- New Connection Activity -->
         <activity
-            android:name="org.eclipse.paho.android.service.sample.NewConnection" 
-            android:label="@string/title_activity_new_connection" >
-        </activity>
-
+            android:name=".NewConnection"
+            android:label="@string/title_activity_new_connection" />
 
         <!-- Advanced Options Screen -->
         <activity
-            android:name="org.eclipse.paho.android.service.sample.Advanced"
-            android:label="@string/title_activity_advanced" >
-        </activity>
+            android:name=".Advanced"
+            android:label="@string/title_activity_advanced" />
 
         <!-- Last Will Activity -->
         <activity
-            android:name="org.eclipse.paho.android.service.sample.LastWill"
-            android:label="@string/title_activity_last_will" >
-        </activity>
-        
-        <!--  Connection Details Activity -->
+            android:name=".LastWill"
+            android:label="@string/title_activity_last_will" />
+
+        <!-- Connection Details Activity -->
         <activity
-            android:name="org.eclipse.paho.android.service.sample.ConnectionDetails"
-            android:label="@string/title_activity_connection_details"
-             >
-        </activity>
+            android:name=".ConnectionDetails"
+            android:label="@string/title_activity_connection_details" />
+        <activity android:name="org.eclipse.paho.android.service.example.PahoExampleActivity" />
+        <activity
+            android:name="org.eclipse.paho.android.service.example.MainActivity"
+            android:label="@string/title_activity_main"></activity>
     </application>
 
 </manifest>

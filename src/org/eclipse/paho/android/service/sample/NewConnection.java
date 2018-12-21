@@ -49,13 +49,13 @@ public class NewConnection extends Activity {
   protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
     setContentView(R.layout.activity_new_connection);
-
-    ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1);
-    adapter.addAll(readHosts());
     AutoCompleteTextView textView = (AutoCompleteTextView) findViewById(R.id.serverURI);
-    textView.setAdapter(adapter);
+    String uri = "iot.eclipse.org";
+    String portnumber = "1883";
+    textView.setText(uri);
+    EditText port = (EditText)findViewById(R.id.port);
+    port.setText(portnumber);
 
-    //load auto compete options
 
   }
 

@@ -40,7 +40,7 @@ IBM Corp.
     <string name="connectionError">An error occurred connecting to</string>
 
     <string name="title_activity_publish">Publish</string>
-    <string name="message">Message</string>
+    <string name="message">Command</string>
     <string name="qos0">0</string>
     <string name="qos1">1</string>
     <string name="qos2">2</string>
@@ -55,7 +55,7 @@ IBM Corp.
     <string name="pass">Password</string>
     <string name="ssl">SSL</string>
     <string name="timeout">Time Out</string>
-    <string name="keepalive">Keep Alive \nTimeout</string>
+    <string name="keepalive">Keep Alive Timeout</string>
 
     <string name="title_activity_last_will">Last Will Message</string>
     <string name="setLastWill">Set Last Will Message</string>
@@ -68,16 +68,16 @@ IBM Corp.
     <string name="title_activity_connection_details">Connection Details</string>
     <string name="startLogging">Enable Logging</string>
     <string name="endLogging">Disable Logging</string>
-	<string name="missingOptions">ClientID, server address or Port number is missing. Please correct or press back arrow cancel.</string>
-   
+    <string name="missingOptions">ClientID, server address or Port number is missing. Please correct or press back arrow cancel.</string>
+
     <string name='dateFormat'>dd/MM/yy \'at\' HH:mm:ss</string>
     <string name="unkown_error">Unknown Error</string>
     <string name="delete">Delete Connection</string>
-    <string name="disconnectClient">Disconnect Client?</string> 
+    <string name="disconnectClient">Disconnect Client?</string>
     <string name="deleteDialog">The selected client is currently connected or connecting, deleting this connection will cause it to be disconnected.</string>
     <string name="continueBtn">Continue</string>
     <string name="cancelBtn">Cancel</string>
-    
+
     <!-- Strings that need formatting  -->
     <string name="messageRecieved">Received message %1$s &lt;br/&gt; &lt;small&gt;Topic: %2$s &lt;/small&gt; </string>
     <string name="timestamp">&lt;br/&gt; &lt;small&gt; %1$s &lt;/small&gt;</string>
@@ -91,20 +91,21 @@ IBM Corp.
     <string name="failure_disconnect">Disconnect failed.&lt;br/&gt; &lt;small&gt;Reason: %s&lt;/small&gt; </string>
     <string name="failure_connect">Client failed to connect.&lt;br/&gt; &lt;small&gt;Reason: %s&lt;/small&gt;</string>
     <string name="client_connected">Client connected successfully</string>
-    
+
     <!-- Hints -->
-    <string name="serverURIHint">example.example.com</string>
+    <string name="serverURIHint">iot.eclipse.org</string>
     <string name="portHint">1883</string>
     <string name="contentDescriptionSSL">Enable SSL</string>
     <string name="contentDescriptionCleanSession">Clean Session</string>
-    <string name="topicHint">hello</string>
-    <string name="messageHint">Hello World</string>
+    <string name="topicHint">specific topic</string>
+    <string name="messageHint">id command</string>
     <string name="unameHint">user</string>
     <string name="passwordHint">password</string>
     <string name="timeoutHint">60</string>
     <string name="keepaliveHint">200</string>
     <string name="sslKeyLocaltion">file://</string>
     <string name="select">select</string>
-    
+    <string name="title_activity_main">MainActivity</string>
+
 
 </resources>

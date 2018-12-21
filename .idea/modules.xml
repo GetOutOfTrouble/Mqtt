@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/org.eclipse.paho.android.service.sample.iml" filepath="$PROJECT_DIR$/org.eclipse.paho.android.service.sample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AndroidMQTT.iml" filepath="$PROJECT_DIR$/AndroidMQTT.iml" />
     </modules>
   </component>
 </project>
