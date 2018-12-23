@@ -6,6 +6,7 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="verbose" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="No Filters" />
   </component>
   <component name="CMakeSettings">
@@ -14,172 +15,25 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb9ef721-e7ba-4068-a309-c23a15dabb73" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/android_support_v4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/org_eclipse_paho_client_mqttv3_1_0_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="fb9ef721-e7ba-4068-a309-c23a15dabb73" name="Default" comment="stable version">
+      <change afterPath="$PROJECT_DIR$/src/org/eclipse/paho/android/service/SensorListener.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidManifest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/generated/source/buildConfig/androidTest/debug/org/eclipse/paho/android/service/sample/test/BuildConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/build/generated/source/buildConfig/androidTest/debug/org/eclipse/paho/android/service/sample/test/BuildConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/generated/source/buildConfig/debug/org/eclipse/paho/android/service/sample/BuildConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/build/generated/source/buildConfig/debug/org/eclipse/paho/android/service/sample/BuildConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/generated/source/r/debug/org/eclipse/paho/android/service/sample/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/build/generated/source/r/debug/org/eclipse/paho/android/service/sample/R.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-v11.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-v14.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/drawable-hdpi-v4.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/drawable-ldpi-v4.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/drawable-mdpi-v4.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/drawable-xhdpi-v4.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/layout.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/menu.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/raw.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/org/eclipse/paho/android/service/AlarmPingSender$AlarmReceiver$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/org/eclipse/paho/android/service/AlarmPingSender$AlarmReceiver$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/org/eclipse/paho/android/service/AlarmPingSender$AlarmReceiver.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/org/eclipse/paho/android/service/AlarmPingSender$AlarmReceiver.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/org/eclipse/paho/android/service/AlarmPingSender.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/org/eclipse/paho/android/service/AlarmPingSender.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/org/eclipse/paho/android/service/DatabaseMessageStore$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/org/eclipse/paho/android/service/DatabaseMessageStore$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/org/eclipse/paho/android/service/DatabaseMessageStore$DbStoredData.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/org/eclipse/paho/android/service/DatabaseMessageStore$DbStoredData.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/org/eclipse/paho/android/service/DatabaseMessageStore$MQTTDatabaseHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/org/eclipse/paho/android/service/DatabaseMessageStore$MQTTDatabaseHelper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/org/eclipse/paho/android/service/DatabaseMessageStore$MqttMessageHack.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/org/eclipse/paho/android/service/DatabaseMessageStore$MqttMessageHack.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/org/eclipse/paho/android/service/DatabaseMessageStore.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/org/eclipse/paho/android/service/DatabaseMessageStore.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/org/eclipse/paho/android/service/MessageStore$StoredMessage.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/org/eclipse/paho/android/service/MessageStore$StoredMessage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/org/eclipse/paho/android/service/MessageStore.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/org/eclipse/paho/android/service/MessageStore.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/org/eclipse/paho/android/service/MqttAndroidClient$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/org/eclipse/paho/android/service/MqttAndroidClient$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/org/eclipse/paho/android/service/MqttAndroidClient$Ack.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/org/eclipse/paho/android/service/MqttAndroidClient$Ack.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/org/eclipse/paho/android/service/MqttAndroidClient$MyServiceConnection.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/org/eclipse/paho/android/service/MqttAndroidClient$MyServiceConnection.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/org/eclipse/paho/android/service/MqttAndroidClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/org/eclipse/paho/android/service/MqttAndroidClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/org/eclipse/paho/android/service/MqttConnection$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/org/eclipse/paho/android/service/MqttConnection$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/org/eclipse/paho/android/service/MqttConnection$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/org/eclipse/paho/android/service/MqttConnection$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/org/eclipse/paho/android/service/MqttConnection$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/org/eclipse/paho/android/service/MqttConnection$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/org/eclipse/paho/android/service/MqttConnection$MqttConnectionListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/org/eclipse/paho/android/service/MqttConnection$MqttConnectionListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/org/eclipse/paho/android/service/MqttConnection.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/org/eclipse/paho/android/service/MqttConnection.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/org/eclipse/paho/android/service/MqttDeliveryTokenAndroid.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/org/eclipse/paho/android/service/MqttDeliveryTokenAndroid.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/org/eclipse/paho/android/service/MqttService$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/org/eclipse/paho/android/service/MqttService$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/org/eclipse/paho/android/service/MqttService$BackgroundDataPreferenceReceiver.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/org/eclipse/paho/android/service/MqttService$BackgroundDataPreferenceReceiver.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/org/eclipse/paho/android/service/MqttService$NetworkConnectionIntentReceiver.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/org/eclipse/paho/android/service/MqttService$NetworkConnectionIntentReceiver.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/org/eclipse/paho/android/service/MqttService.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/org/eclipse/paho/android/service/MqttService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/org/eclipse/paho/android/service/MqttServiceBinder.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/org/eclipse/paho/android/service/MqttServiceBinder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/org/eclipse/paho/android/service/MqttServiceConstants.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/org/eclipse/paho/android/service/MqttServiceConstants.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/org/eclipse/paho/android/service/MqttTokenAndroid.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/org/eclipse/paho/android/service/MqttTokenAndroid.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/org/eclipse/paho/android/service/MqttTraceHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/org/eclipse/paho/android/service/MqttTraceHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/org/eclipse/paho/android/service/ParcelableMqttMessage$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/org/eclipse/paho/android/service/ParcelableMqttMessage$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/org/eclipse/paho/android/service/ParcelableMqttMessage.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/org/eclipse/paho/android/service/ParcelableMqttMessage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/org/eclipse/paho/android/service/Status.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/org/eclipse/paho/android/service/Status.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/org/eclipse/paho/android/service/sample/ActionListener$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/org/eclipse/paho/android/service/sample/ActionListener$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/org/eclipse/paho/android/service/sample/ActionListener$Action.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/org/eclipse/paho/android/service/sample/ActionListener$Action.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/org/eclipse/paho/android/service/sample/ActionListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/org/eclipse/paho/android/service/sample/ActionListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/org/eclipse/paho/android/service/sample/ActivityConstants.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/org/eclipse/paho/android/service/sample/ActivityConstants.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/org/eclipse/paho/android/service/sample/Advanced$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/org/eclipse/paho/android/service/sample/Advanced$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/org/eclipse/paho/android/service/sample/Advanced$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/org/eclipse/paho/android/service/sample/Advanced$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/org/eclipse/paho/android/service/sample/Advanced$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/org/eclipse/paho/android/service/sample/Advanced$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/org/eclipse/paho/android/service/sample/Advanced$Listener.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/org/eclipse/paho/android/service/sample/Advanced$Listener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/org/eclipse/paho/android/service/sample/Advanced.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/org/eclipse/paho/android/service/sample/Advanced.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/org/eclipse/paho/android/service/sample/BuildConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/org/eclipse/paho/android/service/sample/BuildConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/org/eclipse/paho/android/service/sample/CallbackBundle.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/org/eclipse/paho/android/service/sample/CallbackBundle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/org/eclipse/paho/android/service/sample/ClientConnections$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/org/eclipse/paho/android/service/sample/ClientConnections$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/org/eclipse/paho/android/service/sample/ClientConnections$ChangeListener$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/org/eclipse/paho/android/service/sample/ClientConnections$ChangeListener$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/org/eclipse/paho/android/service/sample/ClientConnections$ChangeListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/org/eclipse/paho/android/service/sample/ClientConnections$ChangeListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/org/eclipse/paho/android/service/sample/ClientConnections$LongClickItemListener$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/org/eclipse/paho/android/service/sample/ClientConnections$LongClickItemListener$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/org/eclipse/paho/android/service/sample/ClientConnections$LongClickItemListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/org/eclipse/paho/android/service/sample/ClientConnections$LongClickItemListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/org/eclipse/paho/android/service/sample/ClientConnections.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/org/eclipse/paho/android/service/sample/ClientConnections.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/org/eclipse/paho/android/service/sample/Connection$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/org/eclipse/paho/android/service/sample/Connection$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/org/eclipse/paho/android/service/sample/Connection$ConnectionStatus.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/org/eclipse/paho/android/service/sample/Connection$ConnectionStatus.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/org/eclipse/paho/android/service/sample/Connection.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/org/eclipse/paho/android/service/sample/Connection.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/org/eclipse/paho/android/service/sample/ConnectionDetails$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/org/eclipse/paho/android/service/sample/ConnectionDetails$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/org/eclipse/paho/android/service/sample/ConnectionDetails$ChangeListener$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/org/eclipse/paho/android/service/sample/ConnectionDetails$ChangeListener$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/org/eclipse/paho/android/service/sample/ConnectionDetails$ChangeListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/org/eclipse/paho/android/service/sample/ConnectionDetails$ChangeListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/org/eclipse/paho/android/service/sample/ConnectionDetails$SectionsPagerAdapter.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/org/eclipse/paho/android/service/sample/ConnectionDetails$SectionsPagerAdapter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/org/eclipse/paho/android/service/sample/ConnectionDetails.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/org/eclipse/paho/android/service/sample/ConnectionDetails.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/org/eclipse/paho/android/service/sample/Connections.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/org/eclipse/paho/android/service/sample/Connections.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/org/eclipse/paho/android/service/sample/HistoryFragment.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/org/eclipse/paho/android/service/sample/HistoryFragment.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/org/eclipse/paho/android/service/sample/LastWill$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/org/eclipse/paho/android/service/sample/LastWill$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/org/eclipse/paho/android/service/sample/LastWill.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/org/eclipse/paho/android/service/sample/LastWill.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/org/eclipse/paho/android/service/sample/Listener.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/org/eclipse/paho/android/service/sample/Listener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/org/eclipse/paho/android/service/sample/MqttCallbackHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/org/eclipse/paho/android/service/sample/MqttCallbackHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/org/eclipse/paho/android/service/sample/MqttTraceCallback.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/org/eclipse/paho/android/service/sample/MqttTraceCallback.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/org/eclipse/paho/android/service/sample/NewConnection$Listener.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/org/eclipse/paho/android/service/sample/NewConnection$Listener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/org/eclipse/paho/android/service/sample/NewConnection.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/org/eclipse/paho/android/service/sample/NewConnection.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/org/eclipse/paho/android/service/sample/Notify.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/org/eclipse/paho/android/service/sample/Notify.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/org/eclipse/paho/android/service/sample/OpenFileDialog$FileSelectView.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/org/eclipse/paho/android/service/sample/OpenFileDialog$FileSelectView.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/org/eclipse/paho/android/service/sample/OpenFileDialog.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/org/eclipse/paho/android/service/sample/OpenFileDialog.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/org/eclipse/paho/android/service/sample/Persistence.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/org/eclipse/paho/android/service/sample/Persistence.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/org/eclipse/paho/android/service/sample/PersistenceException.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/org/eclipse/paho/android/service/sample/PersistenceException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/org/eclipse/paho/android/service/sample/PublishFragment.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/org/eclipse/paho/android/service/sample/PublishFragment.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/org/eclipse/paho/android/service/sample/R$attr.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/org/eclipse/paho/android/service/sample/R$attr.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/org/eclipse/paho/android/service/sample/R$drawable.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/org/eclipse/paho/android/service/sample/R$drawable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/org/eclipse/paho/android/service/sample/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/org/eclipse/paho/android/service/sample/R$id.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/org/eclipse/paho/android/service/sample/R$layout.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/org/eclipse/paho/android/service/sample/R$layout.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/org/eclipse/paho/android/service/sample/R$menu.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/org/eclipse/paho/android/service/sample/R$menu.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/org/eclipse/paho/android/service/sample/R$raw.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/org/eclipse/paho/android/service/sample/R$raw.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/org/eclipse/paho/android/service/sample/R$string.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/org/eclipse/paho/android/service/sample/R$string.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/org/eclipse/paho/android/service/sample/R$style.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/org/eclipse/paho/android/service/sample/R$style.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/org/eclipse/paho/android/service/sample/R$styleable.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/org/eclipse/paho/android/service/sample/R$styleable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/org/eclipse/paho/android/service/sample/R.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/org/eclipse/paho/android/service/sample/R.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/org/eclipse/paho/android/service/sample/SubscribeFragment.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/org/eclipse/paho/android/service/sample/SubscribeFragment.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/compileDebugAidl/dependency.store" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugAndroidTestAssets/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugAndroidTestAssets/merger.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugAndroidTestResources/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugAndroidTestResources/merger.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugAssets/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugAssets/merger.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/merger.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/manifest/androidTest/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/manifest/androidTest/debug/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/manifests/full/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/manifests/full/debug/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/android-support-v4_eee7ea746ae0f027b396087150eaa57b846d8d1e.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/debug_7bbfee704f6b64f457c8cc0a02c8fb8d1d2fd222.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/org.eclipse.paho.client.mqttv3-1.0.2_49bc82571ac9c333d0843f552be3ead931cdba6f.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-hdpi-v4/arrow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-ldpi-v4/arrow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-ldpi-v4/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-mdpi-v4/arrow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-xhdpi-v4/arrow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/activity_advanced.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/activity_connection_details.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/activity_new_connection.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/activity_publish.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/activity_subscribe.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/client_connections.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/connection_text_view.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/filedialogitem.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/list_view_text_view.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/menu/activity_advanced.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/menu/activity_client_connections_contextual.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/menu/activity_connection_details.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/menu/activity_connection_details_disconnected.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/menu/activity_connections.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/menu/activity_connections_logging.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/menu/activity_last_will.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/menu/activity_new_connection.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/menu/activity_publish.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/menu/activity_publish_disconnected.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/menu/activity_subscribe.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/menu/activity_subscribe_disconnected.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/raw/jsr47android.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-v11/values-v11.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-v14/values-v14.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values/values.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/res/resources-debug-androidTest.ap_" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/res/resources-debug-androidTest.ap_" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/res/resources-debug.ap_" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/res/resources-debug.ap_" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/transforms/mergeJavaRes/debug/folders/2/1f/main/org/eclipse/paho/android/service/package.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/transforms/mergeJavaRes/debug/folders/2/1f/main/org/eclipse/paho/android/service/sample/package.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/transforms/mergeJavaRes/debug/jars/2/1f/main.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/outputs/logs/manifest-merger-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/outputs/logs/manifest-merger-debug-report.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/layout/activity_new_connection.xml" beforeDir="false" afterPath="$PROJECT_DIR$/res/layout/activity_new_connection.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/drawable-hdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/res/drawable-hdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/drawable-ldpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/res/drawable-ldpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/drawable-mdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/res/drawable-mdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/drawable-xhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/values-v14/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/res/values-v14/styles.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/res/values/styles.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/eclipse/paho/android/service/MqttAndroidClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/eclipse/paho/android/service/MqttAndroidClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/eclipse/paho/android/service/sample/ActionListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/eclipse/paho/android/service/sample/ActionListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/eclipse/paho/android/service/sample/ClientConnections.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/eclipse/paho/android/service/sample/ClientConnections.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/eclipse/paho/android/service/sample/Connection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/eclipse/paho/android/service/sample/Connection.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/org/eclipse/paho/android/service/sample/Listener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/eclipse/paho/android/service/sample/Listener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/eclipse/paho/android/service/sample/NewConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/eclipse/paho/android/service/sample/NewConnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/eclipse/paho/android/service/sample/MqttCallbackHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/eclipse/paho/android/service/sample/MqttCallbackHandler.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -202,11 +56,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ClientConnections.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/eclipse/paho/android/service/sample/ClientConnections.java">
+      <file leaf-file-name="MqttCallbackHandler.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/eclipse/paho/android/service/sample/MqttCallbackHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="89" selection-start-line="89" selection-end-line="89" />
+            <state relative-caret-position="129">
+              <caret line="139" selection-start-line="139" selection-end-line="139" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -214,46 +68,87 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AlarmPingSender.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/org/eclipse/paho/android/service/AlarmPingSender.java">
+      <file leaf-file-name="ic_launcher.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/drawable-hdpi/ic_launcher.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jsr47android.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/raw/jsr47android.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-10">
+              <caret line="70" column="23" selection-start-line="70" selection-start-column="23" selection-end-line="70" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="strings.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="18">
+              <caret line="81" column="27" selection-start-line="81" selection-start-column="18" selection-end-line="81" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="styles.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/values/styles.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="6" column="52" selection-start-line="6" selection-start-column="52" selection-end-line="6" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="styles.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/values-v11/styles.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="6" column="56" selection-start-line="6" selection-start-column="56" selection-end-line="6" selection-end-column="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="styles.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/res/values-v14/styles.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="72">
-              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+              <caret line="4" column="56" lean-forward="true" selection-start-line="4" selection-start-column="56" selection-end-line="4" selection-end-column="56" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Listener.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/eclipse/paho/android/service/sample/Listener.java">
+      <file leaf-file-name="attrs_arrow.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/values/attrs_arrow.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5058">
-              <caret line="315" column="26" selection-start-line="315" selection-start-column="26" selection-end-line="315" selection-end-column="26" />
-            </state>
+            <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Connections.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/eclipse/paho/android/service/sample/Connections.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="503">
-              <caret line="39" column="5" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
+      <file leaf-file-name="ic_launcher.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/drawable-mdpi/ic_launcher.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MqttServiceConstants.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/eclipse/paho/android/service/MqttServiceConstants.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-179">
-              <caret line="27" column="22" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
-            </state>
+      <file leaf-file-name="ic_launcher.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/drawable-ldpi/ic_launcher.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -265,6 +160,19 @@
       <find>keepalive</find>
       <find>connectAction</find>
       <find>changeListener</find>
+      <find>MqttAndroidClient</find>
+      <find>title_activity_history</find>
+      <find>history</find>
+      <find>listeners</find>
+      <find>History</find>
+      <find>messagere</find>
+      <find>add</find>
+      <find>sendAction</find>
+      <find>context</find>
+      <find>connectionDetails</find>
+      <find>get</find>
+      <find>publish</find>
+      <find>clientHandle</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -274,6 +182,7 @@
       </list>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="MIXED" />
   </component>
   <component name="GradleLocalSettings">
     <option name="myGradleHomes">
@@ -1401,37 +1310,54 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/org/eclipse/paho/android/service/sample/Listener.java" />
         <option value="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" />
         <option value="$PROJECT_DIR$/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/res/layout/activity_new_connection.xml" />
         <option value="$PROJECT_DIR$/src/org/eclipse/paho/android/service/sample/NewConnection.java" />
-        <option value="$PROJECT_DIR$/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/src/org/eclipse/paho/android/service/MqttServiceConstants.java" />
-        <option value="$PROJECT_DIR$/src/org/eclipse/paho/android/service/example/PahoExampleActivity.java" />
         <option value="$PROJECT_DIR$/src/org/eclipse/paho/android/service/example/MainActivity.java" />
+        <option value="$PROJECT_DIR$/src/org/eclipse/paho/android/service/example/HistoryAdapter.java" />
+        <option value="$PROJECT_DIR$/src/org/eclipse/paho/android/service/example/PahoExampleActivity.java" />
+        <option value="$PROJECT_DIR$/res/layout/activity_scrolling.xml" />
+        <option value="$PROJECT_DIR$/src/org/eclipse/paho/android/service/sample/HistoryFragment.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/src/org/eclipse/paho/android/service/sample/Connection.java" />
+        <option value="$PROJECT_DIR$/src/org/eclipse/paho/android/service/sample/ActionListener.java" />
+        <option value="$PROJECT_DIR$/src/org/eclipse/paho/android/service/sample/ClientConnections.java" />
+        <option value="$PROJECT_DIR$/src/org/eclipse/paho/android/service/SensorListener.java" />
+        <option value="$PROJECT_DIR$/src/org/eclipse/paho/android/service/MqttAndroidClient.java" />
+        <option value="$PROJECT_DIR$/src/org/eclipse/paho/android/service/sample/Listener.java" />
+        <option value="$PROJECT_DIR$/src/org/eclipse/paho/android/service/sample/Notify.java" />
+        <option value="$PROJECT_DIR$/src/org/eclipse/paho/android/service/sample/MqttCallbackHandler.java" />
+        <option value="$PROJECT_DIR$/res/values/styles.xml" />
+        <option value="$PROJECT_DIR$/res/values-v14/styles.xml" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-5" />
-    <option name="y" value="-5" />
-    <option name="width" value="1376" />
+    <option name="x" value="-74" />
+    <option name="y" value="35" />
+    <option name="width" value="1126" />
     <option name="height" value="738" />
   </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="ProjectPane" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="AndroidView">
         <subPane>
           <expand>
             <path>
               <item name="AndroidMQTT" type="1abcf292:AndroidViewProjectNode" />
               <item name="AndroidMQTT" type="feadf853:AndroidModuleNode" />
+            </path>
+            <path>
+              <item name="AndroidMQTT" type="1abcf292:AndroidViewProjectNode" />
+              <item name="AndroidMQTT" type="feadf853:AndroidModuleNode" />
+              <item name="manifests" type="f94875db:AndroidManifestsGroupNode" />
             </path>
             <path>
               <item name="AndroidMQTT" type="1abcf292:AndroidViewProjectNode" />
@@ -1447,7 +1373,32 @@
             <path>
               <item name="AndroidMQTT" type="1abcf292:AndroidViewProjectNode" />
               <item name="AndroidMQTT" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="service" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="sample" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AndroidMQTT" type="1abcf292:AndroidViewProjectNode" />
+              <item name="AndroidMQTT" type="feadf853:AndroidModuleNode" />
+              <item name="generatedJava" type="edd41e36:AndroidSourceTypeNode" />
+            </path>
+            <path>
+              <item name="AndroidMQTT" type="1abcf292:AndroidViewProjectNode" />
+              <item name="AndroidMQTT" type="feadf853:AndroidModuleNode" />
               <item name="res" type="d4f16f75:AndroidResFolderNode" />
+            </path>
+            <path>
+              <item name="AndroidMQTT" type="1abcf292:AndroidViewProjectNode" />
+              <item name="AndroidMQTT" type="feadf853:AndroidModuleNode" />
+              <item name="res" type="d4f16f75:AndroidResFolderNode" />
+              <item name="drawable" type="ddeffd01:AndroidResFolderTypeNode" />
+            </path>
+            <path>
+              <item name="AndroidMQTT" type="1abcf292:AndroidViewProjectNode" />
+              <item name="AndroidMQTT" type="feadf853:AndroidModuleNode" />
+              <item name="res" type="d4f16f75:AndroidResFolderNode" />
+              <item name="drawable" type="ddeffd01:AndroidResFolderTypeNode" />
+              <item name="ic_launcher" type="c431d0b8:AndroidResGroupNode" />
             </path>
             <path>
               <item name="AndroidMQTT" type="1abcf292:AndroidViewProjectNode" />
@@ -1457,99 +1408,36 @@
             </path>
             <path>
               <item name="AndroidMQTT" type="1abcf292:AndroidViewProjectNode" />
+              <item name="AndroidMQTT" type="feadf853:AndroidModuleNode" />
+              <item name="res" type="d4f16f75:AndroidResFolderNode" />
+              <item name="menu" type="ddeffd01:AndroidResFolderTypeNode" />
+            </path>
+            <path>
+              <item name="AndroidMQTT" type="1abcf292:AndroidViewProjectNode" />
+              <item name="AndroidMQTT" type="feadf853:AndroidModuleNode" />
+              <item name="res" type="d4f16f75:AndroidResFolderNode" />
+              <item name="raw" type="ddeffd01:AndroidResFolderTypeNode" />
+            </path>
+            <path>
+              <item name="AndroidMQTT" type="1abcf292:AndroidViewProjectNode" />
+              <item name="AndroidMQTT" type="feadf853:AndroidModuleNode" />
+              <item name="res" type="d4f16f75:AndroidResFolderNode" />
+              <item name="values" type="ddeffd01:AndroidResFolderTypeNode" />
+            </path>
+            <path>
+              <item name="AndroidMQTT" type="1abcf292:AndroidViewProjectNode" />
               <item name="Gradle Scripts" type="ae0cef3a:AndroidBuildScriptsGroupNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="AndroidMQTT" type="b2602c69:ProjectViewProjectNode" />
               <item name="AndroidMQTT" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="AndroidMQTT" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AndroidMQTT" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AndroidMQTT" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AndroidMQTT" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-              <item name="generated" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AndroidMQTT" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AndroidMQTT" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-              <item name="generated" type="462c0819:PsiDirectoryNode" />
-              <item name="not_namespaced_r_class_sources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AndroidMQTT" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AndroidMQTT" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-              <item name="generated" type="462c0819:PsiDirectoryNode" />
-              <item name="not_namespaced_r_class_sources" type="462c0819:PsiDirectoryNode" />
-              <item name="debug" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AndroidMQTT" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AndroidMQTT" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-              <item name="generated" type="462c0819:PsiDirectoryNode" />
-              <item name="not_namespaced_r_class_sources" type="462c0819:PsiDirectoryNode" />
-              <item name="debug" type="462c0819:PsiDirectoryNode" />
-              <item name="processDebugResources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AndroidMQTT" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AndroidMQTT" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-              <item name="generated" type="462c0819:PsiDirectoryNode" />
-              <item name="not_namespaced_r_class_sources" type="462c0819:PsiDirectoryNode" />
-              <item name="debug" type="462c0819:PsiDirectoryNode" />
-              <item name="processDebugResources" type="462c0819:PsiDirectoryNode" />
-              <item name="r" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AndroidMQTT" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AndroidMQTT" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="res" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AndroidMQTT" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AndroidMQTT" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="res" type="462c0819:PsiDirectoryNode" />
-              <item name="layout" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AndroidMQTT" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AndroidMQTT" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="res" type="462c0819:PsiDirectoryNode" />
-              <item name="menu" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AndroidMQTT" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AndroidMQTT" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="res" type="462c0819:PsiDirectoryNode" />
-              <item name="values" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AndroidMQTT" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AndroidMQTT" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="res" type="462c0819:PsiDirectoryNode" />
-              <item name="values-v11" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AndroidMQTT" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AndroidMQTT" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="res" type="462c0819:PsiDirectoryNode" />
-              <item name="values-v14" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="AndroidMQTT" type="b2602c69:ProjectViewProjectNode" />
@@ -1577,9 +1465,11 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="notify&#9;FILE&#9;file://D:/sourceUI/AndroidMQTT/src/org/eclipse/paho/android/service/sample/Notify.java&#10;clientHandle&#9;PSI&#9;JAVA://org.eclipse.paho.android.service.sample.Connection#clientHandle&#10;clientHand&#9;PSI&#9;JAVA://org.eclipse.paho.android.service.MqttAndroidClient#clientHandle&#10;publish&#9;PSI&#9;JAVA://org.eclipse.paho.android.service.MqttConnection#publish&#10;R.id.publish&#9;PSI&#9;JAVA://org.eclipse.paho.android.service.sample.R.id#publish&#10;onOptionIt&#9;PSI&#9;JAVA://org.eclipse.paho.android.service.sample.NewConnection#onOptionsItemSelected&#10;onOption&#9;PSI&#9;JAVA://org.eclipse.paho.android.service.sample.ClientConnections#onCreateOptionsMenu" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.project.structure.last.selected" value="AndroidMQTT" />
     <property name="android.project.structure.proportion" value="0.15" />
@@ -1596,6 +1486,10 @@
     </key>
     <key name="android.template.parentActivityClass">
       <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\sourceUI\AndroidMQTT\res\layout" />
+      <recent name="D:\sourceUI\AndroidMQTT\src\org\eclipse\paho\android\service\example" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -1734,6 +1628,14 @@
       <updated>1545288393390</updated>
       <workItem from="1545314884538" duration="170000" />
     </task>
+    <task id="LOCAL-00001" summary="stable version">
+      <created>1545394423637</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1545394423637</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1749,53 +1651,89 @@
     <frame x="-5" y="-5" width="1376" height="738" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info anchor="bottom" id="Android Profiler" order="7" show_stripe_button="false" weight="0.3294893" />
+      <window_info anchor="bottom" id="Android Profiler" order="7" weight="0.3294893" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3294893" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Build Variants" order="2" side_tool="true" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.3294893" />
-      <window_info anchor="right" id="Preview" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50075644" side_tool="true" visible="true" weight="0.3294893" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49924356" weight="0.3294893" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3294893" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Logcat" order="7" weight="0.3294893" />
-      <window_info id="Captures" order="2" weight="0.25" />
+      <window_info id="Captures" order="2" weight="0.24962178" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1860817" />
-      <window_info anchor="bottom" id="Build" order="7" visible="true" weight="0.3294893" />
-      <window_info anchor="right" id="Gradle" order="3" />
+      <window_info anchor="bottom" id="Build" order="7" sideWeight="0.49924356" weight="0.3294893" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49924356" visible="true" weight="0.3294893" />
+      <window_info anchor="right" id="Gradle" order="5" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Device File Explorer" order="3" side_tool="true" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39868203" />
+      <window_info anchor="right" id="Device File Explorer" order="6" side_tool="true" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3970346" />
       <window_info anchor="bottom" id="Database Changes" order="14" show_stripe_button="false" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="0" weight="0.4579901" />
-      <window_info anchor="right" id="JetGradle" order="4" />
-      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="JetGradle" order="12" />
+      <window_info anchor="right" id="Palette" order="8" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Changes" order="8" />
       <window_info anchor="bottom" id="Profiler" order="10" />
-      <window_info anchor="right" id="StringPreview" order="3" />
+      <window_info anchor="right" id="StringPreview" order="10" />
       <window_info anchor="bottom" id="Messages" order="16" weight="0.38056013" />
-      <window_info anchor="right" x="0" y="0" width="294" height="538" id="Documentation" order="8" side_tool="true" weight="0.32980332" />
+      <window_info anchor="right" id="Preview" order="11" />
+      <window_info anchor="right" x="0" y="0" width="294" height="538" id="Documentation" order="15" side_tool="true" weight="0.32980332" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="UI Designer" order="3" />
       <window_info anchor="bottom" id="Problems" order="11" />
-      <window_info anchor="right" id="Assistant" order="3" visible="true" weight="0.0" />
+      <window_info anchor="right" id="Assistant" order="9" visible="true" weight="0.0" />
       <window_info anchor="bottom" id="Application Servers" order="12" />
-      <window_info anchor="right" id="Maven Projects" order="9" weight="0.32980332" />
+      <window_info anchor="right" id="Maven Projects" order="13" weight="0.32980332" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Dependency Viewer" order="17" weight="0.3294893" />
-      <window_info anchor="right" id="Database" order="10" weight="0.32980332" />
+      <window_info anchor="right" id="Database" order="14" weight="0.32980332" />
       <window_info anchor="bottom" id="Message" order="0" />
     </layout>
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -1806,303 +1744,114 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="49" />
     </breakpoint-manager>
   </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>clientHandle.split(&quot;1883&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/org/eclipse/paho/android/service/MqttAndroidClient.java">
+    <entry file="file://$PROJECT_DIR$/src/org/eclipse/paho/android/service/sample/HistoryFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="69" column="13" selection-start-line="69" selection-start-column="13" selection-end-line="69" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/eclipse/paho/android/service/MessageStore.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="33" column="10" selection-start-line="33" selection-start-column="10" selection-end-line="33" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/eclipse/paho/android/service/DatabaseMessageStore.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="29" column="6" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build/generated/source/r/debug/org/eclipse/paho/android/service/sample/R.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
-          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/eclipse/paho/android/service/sample/MainActivity.java" />
-    <entry file="file://$PROJECT_DIR$/src/org/eclipse/paho/android/service/MqttTraceHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-252">
-          <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+        <state relative-caret-position="504">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/eclipse/paho/android/service/MqttTokenAndroid.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1818">
-          <caret line="27" column="6" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="6" />
-          <folding>
-            <element signature="e#0#553#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="1926">
+          <caret line="123" selection-start-line="123" selection-end-line="123" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/eclipse/paho/android/service/sample/Connection.java">
+    <entry file="file://$PROJECT_DIR$/src/org/eclipse/paho/android/service/AlarmPingSender.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="51" column="16" lean-forward="true" selection-start-line="51" selection-start-column="16" selection-end-line="51" selection-end-column="16" />
+        <state relative-caret-position="18">
+          <caret line="63" column="4" lean-forward="true" selection-start-line="63" selection-start-column="4" selection-end-line="63" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/eclipse/paho/android/service/sample/PersistenceException.java">
+    <entry file="file://$PROJECT_DIR$/src/org/eclipse/paho/android/service/MqttServiceConstants.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+        <state relative-caret-position="18">
+          <caret line="55" column="61" selection-start-line="55" selection-start-column="61" selection-end-line="55" selection-end-column="61" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/eclipse/paho/android/service/MqttServiceBinder.java">
+    <entry file="file://$PROJECT_DIR$/src/org/eclipse/paho/android/service/sample/SubscribeFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="27" column="29" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
+        <state relative-caret-position="120">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/eclipse/paho/android/service/sample/Notify.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="37" column="23" selection-start-line="37" selection-start-column="23" selection-end-line="37" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/local.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="24" selection-start-column="24" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidMQTT.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1296" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/menu/activity_client_connections_contextual.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/menu/activity_connection_details.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/eclipse/paho/android/service/ParcelableMqttMessage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="63" column="24" selection-start-line="63" selection-start-column="24" selection-end-line="63" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Android/android-sdk-windows/sources/android-28/android/os/Looper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-319">
-          <caret line="154" selection-start-line="154" selection-end-line="154" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Android/android-sdk-windows/sources/android-28/android/app/ActivityThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="2834" selection-start-line="2834" selection-end-line="2834" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/menu/activity_advanced.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-10" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/activity_publish.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
-          <folding>
-            <element signature="e#799#814#0" expanded="true" />
-            <element signature="e#1070#1089#0" expanded="true" />
-            <element signature="e#1535#1552#0" expanded="true" />
-            <element signature="e#1829#1850#0" expanded="true" />
-            <element signature="e#2342#2355#0" expanded="true" />
-            <element signature="e#2766#2780#0" expanded="true" />
-            <element signature="e#2976#2990#0" expanded="true" />
-            <element signature="e#3173#3187#0" expanded="true" />
-            <element signature="e#3648#3666#0" expanded="true" />
-            <element signature="e#3830#3845#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/activity_connection_details.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/client_connections.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="39" lean-forward="true" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/menu/activity_connections.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/menu/activity_connections_logging.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/menu/activity_new_connection.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" column="40" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/eclipse/paho/android/service/sample/ActivityConstants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="45" column="34" selection-start-line="45" selection-start-column="19" selection-end-line="45" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/eclipse/paho/android/service/sample/Advanced.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="972">
-          <caret line="54" column="41" selection-start-line="54" selection-start-column="41" selection-end-line="54" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/activity_advanced.xml">
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="2538">
-          <caret line="141" column="43" selection-start-line="141" selection-start-column="34" selection-end-line="141" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/menu/activity_publish.xml">
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/eclipse/paho/android/service/sample/PublishFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="30" column="11" lean-forward="true" selection-start-line="30" selection-start-column="11" selection-end-line="30" selection-end-column="11" />
+        <state relative-caret-position="108">
+          <caret line="34" column="18" lean-forward="true" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/eclipse/paho/android/service/sample/LastWill.java">
+    <entry file="file://$PROJECT_DIR$/res/menu/activity_publish_disconnected.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="83" column="26" lean-forward="true" selection-start-line="83" selection-start-column="26" selection-end-line="83" selection-end-column="26" />
-        </state>
+        <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/list_view_text_view.xml">
       <provider editor-type-id="android-designer2">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/menu/activity_publish.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" column="42" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
+        <state relative-caret-position="162">
+          <caret line="15" column="32" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="32" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/activity_new_connection.xml">
       <provider editor-type-id="android-designer2">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/menu/activity_new_connection.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
+        <state />
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/eclipse/paho/android/service/MqttConnection.java">
+    <entry file="file://$PROJECT_DIR$/res/menu/activity_last_will.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="174" column="7" selection-start-line="174" selection-start-column="7" selection-end-line="174" selection-end-column="7" />
-        </state>
+        <state relative-caret-position="-120" />
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Android/android-sdk-windows/sources/android-28/android/app/Activity.java">
+    <entry file="file://$PROJECT_DIR$/res/layout/activity_publish.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="5400" column="22" selection-start-line="5400" selection-start-column="22" selection-end-line="5400" selection-end-column="22" />
+        <state relative-caret-position="-702" />
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Android/android-sdk-windows/sources/android-28/java/util/HashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="553" column="13" selection-start-line="553" selection-start-column="13" selection-end-line="553" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/eclipse/paho/android/service/sample/NewConnection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="183" column="16" selection-start-line="183" selection-start-column="16" selection-end-line="183" selection-end-column="16" />
+        <state relative-caret-position="-56">
+          <caret line="81" column="40" lean-forward="true" selection-start-line="81" selection-start-column="40" selection-end-line="81" selection-end-column="40" />
           <folding>
             <element signature="e#3349#3350#0" expanded="true" />
             <element signature="e#3397#3398#0" expanded="true" />
@@ -2111,112 +1860,285 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Android/android-sdk-windows/sources/android-28/android/app/ListActivity.java">
+    <entry file="file://$PROJECT_DIR$/src/org/eclipse/paho/android/service/sample/LastWill.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="295" column="20" selection-start-line="295" selection-start-column="20" selection-end-line="295" selection-end-column="20" />
+        <state relative-caret-position="18">
+          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
-      <provider editor-type-id="android-manifest">
-        <state />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/org/eclipse/paho/android/service/sample/ConnectionDetails.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="22" column="51" selection-start-line="22" selection-start-column="51" selection-end-line="22" selection-end-column="51" />
+        <state relative-caret-position="504">
+          <caret line="62" column="51" selection-start-line="62" selection-start-column="34" selection-end-line="62" selection-end-column="51" />
+          <folding>
+            <element signature="docComment;field#sectionsPagerAdapter#0;class#ConnectionDetails#0" />
+            <element signature="docComment;method#onCreate#0;class#ConnectionDetails#0" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/connection_text_view.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
+    <entry file="jar://$PROJECT_DIR$/libs/org.eclipse.paho.client.mqttv3-1.0.2.jar!/org/eclipse/paho/client/mqttv3/MqttCallback.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/eclipse/paho/android/service/sample/Listener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5058">
-          <caret line="315" column="26" selection-start-line="315" selection-start-column="26" selection-end-line="315" selection-end-column="26" />
+        <state relative-caret-position="126">
+          <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/eclipse/paho/android/service/MqttServiceConstants.java">
+    <entry file="file://$PROJECT_DIR$/src/org/eclipse/paho/android/service/sample/MqttTraceCallback.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-179">
-          <caret line="27" column="22" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
+        <state relative-caret-position="90">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/org/eclipse/paho/android/service/sample/R.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="637" column="32" selection-start-line="637" selection-start-column="28" selection-end-line="637" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Android/android-sdk-windows/sources/android-28/android/content/Context.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="90" column="22" selection-start-line="90" selection-start-column="22" selection-end-line="90" selection-end-column="22" />
+          <folding>
+            <element signature="e#24507#24508#0" expanded="true" />
+            <element signature="e#24561#24562#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/libs/org.eclipse.paho.client.mqttv3-1.0.2.jar!/org/eclipse/paho/client/mqttv3/MqttMessage.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-558">
+          <caret line="5" column="39" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/eclipse/paho/android/service/sample/Connections.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="503">
-          <caret line="39" column="5" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+        <state relative-caret-position="131">
+          <caret line="84" selection-start-line="84" selection-end-line="84" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/eclipse/paho/android/service/example/MainActivity.java">
+    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="90">
+          <caret line="22" column="40" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/activity_paho_example.xml">
-      <provider selected="true" editor-type-id="android-designer2">
+      <provider editor-type-id="android-manifest">
         <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/activity_main.xml">
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/eclipse/paho/android/service/example/PahoExampleActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-72">
-          <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/eclipse/paho/android/service/sample/ClientConnections.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="89" selection-start-line="89" selection-end-line="89" />
+        <state relative-caret-position="235">
+          <caret line="105" column="119" selection-start-line="105" selection-start-column="119" selection-end-line="105" selection-end-column="119" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;field#arrayAdapter#0;class#ClientConnections#0" />
+            <element signature="docComment;field#changeListener#0;class#ClientConnections#0" />
+            <element signature="docComment;field#clientConnections#0;class#ClientConnections#0" />
+            <element signature="docComment;field#contextualActionBarActive#0;class#ClientConnections#0" />
+            <element signature="docComment;method#onCreate#0;class#ClientConnections#0" />
+            <element signature="docComment;method#onCreateOptionsMenu#0;class#ClientConnections#0" />
+            <element signature="docComment;method#onListItemClick#0;class#ClientConnections#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/eclipse/paho/android/service/SensorListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
+    <entry file="file://$PROJECT_DIR$/src/org/eclipse/paho/android/service/ParcelableMqttMessage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+        <state relative-caret-position="194">
+          <caret line="47" column="6" selection-start-line="47" selection-start-column="6" selection-end-line="47" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/eclipse/paho/android/service/AlarmPingSender.java">
+    <entry file="file://$PROJECT_DIR$/src/org/eclipse/paho/android/service/sample/Connection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="51" column="28" selection-start-line="51" selection-start-column="28" selection-end-line="51" selection-end-column="28" />
+          <folding>
+            <element signature="e#9812#9813#0" expanded="true" />
+            <element signature="e#9835#9836#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/eclipse/paho/android/service/sample/Listener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="249" column="20" selection-start-line="249" selection-start-column="20" selection-end-line="249" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/eclipse/paho/android/service/MqttService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7146">
+          <caret line="436" column="22" selection-start-line="436" selection-start-column="22" selection-end-line="436" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/libs/org.eclipse.paho.client.mqttv3-1.0.2.jar!/org/eclipse/paho/client/mqttv3/internal/wire/MqttPublish.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="20" column="11" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/libs/org.eclipse.paho.client.mqttv3-1.0.2.jar!/org/eclipse/paho/client/mqttv3/MqttAsyncClient.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1778">
+          <caret line="412" column="40" selection-start-line="412" selection-start-column="40" selection-end-line="412" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/eclipse/paho/android/service/MqttConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="879" column="47" selection-start-line="879" selection-start-column="47" selection-end-line="879" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/LOGO.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/drawable-hdpi/ic_launcher.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/drawable-ldpi/ic_launcher.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/drawable-hdpi/arrow.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/eclipse/paho/android/service/sample/ActionListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="193" column="14" selection-start-line="193" selection-start-column="14" selection-end-line="193" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/eclipse/paho/android/service/MqttAndroidClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="726" column="58" selection-start-line="726" selection-start-column="58" selection-end-line="726" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Android/android-sdk-windows/sources/android-28/android/app/Notification.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-168909">
+          <caret line="109" column="13" selection-start-line="109" selection-start-column="13" selection-end-line="109" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/eclipse/paho/android/service/DatabaseMessageStore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="375" column="23" selection-start-line="375" selection-start-column="23" selection-end-line="375" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/eclipse/paho/android/service/sample/Notify.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="64" column="40" selection-start-line="64" selection-start-column="40" selection-end-line="64" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/drawable-xhdpi/ic_launcher.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/drawable-mdpi/ic_launcher.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/drawable-ldpi/ic_launcher.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/drawable-hdpi/ic_launcher.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/raw/jsr47android.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-10">
+          <caret line="70" column="23" selection-start-line="70" selection-start-column="23" selection-end-line="70" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/values/attrs_arrow.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="81" column="27" selection-start-line="81" selection-start-column="18" selection-end-line="81" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/eclipse/paho/android/service/sample/MqttCallbackHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="139" selection-start-line="139" selection-end-line="139" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/values-v11/styles.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="56" selection-start-line="6" selection-start-column="56" selection-end-line="6" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/values/styles.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="52" selection-start-line="6" selection-start-column="52" selection-end-line="6" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/values-v14/styles.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+          <caret line="4" column="56" lean-forward="true" selection-start-line="4" selection-start-column="56" selection-end-line="4" selection-end-column="56" />
         </state>
       </provider>
     </entry>

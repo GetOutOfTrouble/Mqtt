@@ -30,8 +30,8 @@ IBM Corp.
     <string name="title_activity_subscribe">Subscribe</string>
     <string name="disconnected">Disconnected from</string>
     <string name="topic">Topic</string>
-    <string name="history">History</string>
-    <string name="title_activity_history">History</string>
+    <string name="history">Message</string>
+    <string name="title_activity_history">Message</string>
     <string name="subscribed">Subscribed to </string>
     <string name="token">org.eclipse.paho.android.service.sample.ClientConnections</string>
     <string name="no_status">Unknown connection status to</string>

@@ -110,7 +110,6 @@ class ActionListener implements IMqttActionListener {
     Connection c = Connections.getInstance(context).getConnection(clientHandle);
     String actionTaken = context.getString(R.string.toast_pub_success,
         (Object[]) additionalArgs);
-    c.addAction(actionTaken);
     Notify.toast(context, actionTaken, Toast.LENGTH_SHORT);
   }
 

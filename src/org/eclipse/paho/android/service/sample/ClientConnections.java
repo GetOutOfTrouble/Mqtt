@@ -19,6 +19,7 @@ import java.io.FileNotFoundException;
 import java.util.Map;
 
 import org.eclipse.paho.android.service.MqttAndroidClient;
+import org.eclipse.paho.android.service.SensorListener;
 import org.eclipse.paho.android.service.sample.Connection.ConnectionStatus;
 import org.eclipse.paho.client.mqttv3.MqttConnectOptions;
 import org.eclipse.paho.client.mqttv3.MqttException;
@@ -29,6 +30,8 @@ import android.app.ListActivity;
 import android.content.DialogInterface;
 import android.content.DialogInterface.OnClickListener;
 import android.content.Intent;
+import android.hardware.Sensor;
+import android.hardware.SensorManager;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.ActionMode;
@@ -98,7 +101,9 @@ public class ClientConnections extends ListActivity {
         arrayAdapter.add(connections.get(s));
       }
     }
-
+      SensorManager mSensorManager = (SensorManager) getSystemService(SENSOR_SERVICE);
+      Sensor mAccelerometer = mSensorManager.getDefaultSensor(Sensor.TYPE_ACCELEROMETER);
+      mSensorManager.registerListener(SensorListener.getListener(), mAccelerometer, SensorManager.SENSOR_DELAY_NORMAL);
   }
 
   /**
@@ -144,11 +149,11 @@ public class ClientConnections extends ListActivity {
     super.onListItemClick(listView, view, position, id);
 
     if (!contextualActionBarActive) {
-      Connection c = arrayAdapter.getItem(position);
-
       // start the connectionDetails activity to display the details about the
       // selected connection
       Intent intent = new Intent();
+      Connection c = arrayAdapter.getItem(position);
+
       intent.setClassName(getApplicationContext().getPackageName(),
           "org.eclipse.paho.android.service.sample.ConnectionDetails");
       intent.putExtra("handle", c.handle());

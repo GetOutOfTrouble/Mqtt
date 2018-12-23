@@ -139,6 +139,7 @@ public class MqttAndroidClient extends BroadcastReceiver implements
 	private MqttConnectOptions connectOptions;
 	private IMqttToken connectToken;
 
+	private String clientNickName;
 	// The MqttCallback provided by the application
 	private MqttCallback callback;
 	private MqttTraceHandler traceCallback;
@@ -267,9 +268,20 @@ public class MqttAndroidClient extends BroadcastReceiver implements
 	 * The format of the returned String is the same as that used on the
 	 * constructor.
 	 * </p>
-	 * 
+	 *
 	 * @return the server's address, as a URI String.
 	 */
+	public String getClientNickName() {
+		if (this.clientNickName == null) {
+			return this.clientId;
+		} else {
+			return this.clientNickName;
+		}
+	}
+
+	public void setClientNickName(String name) {
+		this.clientNickName = name;
+	}
 	@Override
 	public String getServerURI() {
 		return serverURI;

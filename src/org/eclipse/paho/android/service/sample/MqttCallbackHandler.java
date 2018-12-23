@@ -12,6 +12,7 @@
  */
 package org.eclipse.paho.android.service.sample;
 
+import org.eclipse.paho.android.service.SensorListener;
 import org.eclipse.paho.android.service.sample.R;
 import org.eclipse.paho.client.mqttv3.IMqttDeliveryToken;
 import org.eclipse.paho.client.mqttv3.MqttCallback;
@@ -19,7 +20,10 @@ import org.eclipse.paho.client.mqttv3.MqttMessage;
 import android.content.Context;
 import android.content.Intent;
 import org.eclipse.paho.android.service.sample.Connection.ConnectionStatus;
-
+import android.hardware.Sensor;
+import android.hardware.SensorEvent;
+import android.hardware.SensorEventListener;
+import android.hardware.SensorManager;
 /**
  * Handles call backs from the MQTT Client
  *
@@ -65,8 +69,6 @@ public class MqttCallbackHandler implements MqttCallback {
       intent.setClassName(context, "org.eclipse.paho.android.service.sample.ConnectionDetails");
       intent.putExtra("handle", clientHandle);
 
-      //notify the user
-      Notify.notifcation(context, message, intent, R.string.notifyTitle_connectionLost);
     }
   }
 
@@ -82,28 +84,69 @@ public class MqttCallbackHandler implements MqttCallback {
     //create arguments to format message arrived notifcation string
     String[] args = new String[2];
     args[0] = new String(message.getPayload());
-    args[1] = topic+";qos:"+message.getQos()+";retained:"+message.isRetained();
+    args[1] = topic + ";qos:" + message.getQos() + ";retained:" + message.isRetained();
+    String payload = new String(message.getPayload());
+    String[]info = payload.split(" ");
+    if (info.length >= 3) {
+      String from = info[0];
+      String to = info[1];
+      String content = info[2];
+      String myID = clientHandle.split("1883")[1];
+      if (to.equals(myID)) {
+        switch (content) {
+          case "info":
+            String trix = SensorListener.getListener().getInfo();
+            trix = myID + " " + from +" "+ trix;
+            Connections.getInstance(context).getConnection(clientHandle).getClient()
+                    .publish(topic, trix.getBytes(), 0, false, null, new ActionListener(context, ActionListener.Action.PUBLISH, clientHandle, args));
+            Intent ints = new Intent();
+            ints.setClassName(context, "org.eclipse.paho.android.service.sample.ConnectionDetails");
+            ints.putExtra("handle", clientHandle);
+            String not = from + "查看了你的传感器数据";
+            c.addAction(not);
+            break;
+          case "del":
+            c.getClient().disconnect(null, new ActionListener(context, ActionListener.Action.DISCONNECT, clientHandle));
+            c.changeConnectionStatus(ConnectionStatus.DISCONNECTING);
+            String del = from + "把你断开了连接";
+            c.addAction(del);
+            break;
+          case "edit":
+            if (info.length == 4) {
+              String name = info[3];
+              Connections.getInstance(context).getConnection(clientHandle).getClient()
+                      .setClientNickName(name);
+              String edit = from + "把你的昵称改为了" + name;
+              c.addAction(edit);
+            } else {
+              String er = "已阻止"+from+"的非法修改";
+              c.addAction(er);
+            }
 
-    //get the string from strings.xml and format
-    String messageString = context.getString(R.string.messageRecieved, (Object[]) args);
+            break;
+          default:
+            String messageString = from + ":" + content;
 
-    //create intent to start activity
-    Intent intent = new Intent();
-    intent.setClassName(context, "org.eclipse.paho.android.service.sample.ConnectionDetails");
-    intent.putExtra("handle", clientHandle);
+            //create intent to start activity
+            Intent intent = new Intent();
+            intent.setClassName(context, "org.eclipse.paho.android.service.sample.ConnectionDetails");
+            intent.putExtra("handle", clientHandle);
 
-    //format string args
-    Object[] notifyArgs = new String[3];
-    notifyArgs[0] = c.getId();
-    notifyArgs[1] = new String(message.getPayload());
-    notifyArgs[2] = topic;
+            //format string args
+            Object[] notifyArgs = new String[3];
+            notifyArgs[0] = c.getId();
+            notifyArgs[1] = new String(message.getPayload());
+            notifyArgs[2] = topic;
 
-    //notify the user 
-    Notify.notifcation(context, context.getString(R.string.notification, notifyArgs), intent, R.string.notifyTitle);
+            //update client history
+            c.addAction(messageString);
+        }
 
-    //update client history
-    c.addAction(messageString);
+      }
+//    //get the string from strings.xml and format
+//    String messageString = context.getString(R.string.messageRecieved, (Object[]) args);
 
+    }
   }
 
   /**

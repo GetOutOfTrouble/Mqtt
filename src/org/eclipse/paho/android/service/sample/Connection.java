@@ -22,6 +22,8 @@ import org.eclipse.paho.client.mqttv3.MqttConnectOptions;
 import android.content.Context;
 import android.text.Html;
 import android.text.Spanned;
+import android.util.Log;
+
 import org.eclipse.paho.android.service.MqttAndroidClient;
 
 /**
@@ -30,7 +32,7 @@ import org.eclipse.paho.android.service.MqttAndroidClient;
  *
  */
 public class Connection {
-
+  private static final String TAG = "Connection";
   /*
    * Basic Information about the client
    */
@@ -168,6 +170,7 @@ public class Connection {
 
     for (String s : history) {
       if (s != null) {
+        Log.d(TAG, s);
         array[i] = Html.fromHtml(s);
         i++;
       }

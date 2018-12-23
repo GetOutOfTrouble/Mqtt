@@ -32,6 +32,7 @@ import android.view.MenuItem.OnMenuItemClickListener;
 import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.RadioGroup;
+import android.widget.Toast;
 
 import org.eclipse.paho.android.service.sample.ActionListener.Action;
 import org.eclipse.paho.android.service.sample.Connection.ConnectionStatus;
@@ -53,6 +54,7 @@ public class Listener implements OnMenuItemClickListener {
   private ClientConnections clientConnections = null;
   /** {@link Context} used to load and format strings **/
   private Context context = null;
+
 
   /** Whether Paho is logging is enabled**/
   static boolean logging = false;
@@ -216,7 +218,8 @@ public class Listener implements OnMenuItemClickListener {
 
     String message = ((EditText) connectionDetails.findViewById(R.id.lastWill)).getText()
         .toString();
-
+    String myNickname = Connections.getInstance(context).getConnection(clientHandle).getClient().getClientNickName();
+    message = myNickname+" "+message;
     ((EditText) connectionDetails.findViewById(R.id.lastWill)).getText().clear();
 
     RadioGroup radio = (RadioGroup) connectionDetails.findViewById(R.id.qosRadio);
@@ -241,17 +244,20 @@ public class Listener implements OnMenuItemClickListener {
     String[] args = new String[2];
     args[0] = message;
     args[1] = topic+";qos:"+qos+";retained:"+retained;
+    if (message.split(" ").length >= 3) {
+      try {
+        Connections.getInstance(context).getConnection(clientHandle).getClient()
+                .publish(topic, message.getBytes(), qos, retained, null, new ActionListener(context, Action.PUBLISH, clientHandle, args));
 
-    try {
-      Connections.getInstance(context).getConnection(clientHandle).getClient()
-          .publish(topic, message.getBytes(), qos, retained, null, new ActionListener(context, Action.PUBLISH, clientHandle, args));
+      } catch (MqttSecurityException e) {
+        Log.e(this.getClass().getCanonicalName(), "Failed to publish a messged from the client with the handle " + clientHandle, e);
+      } catch (MqttException e) {
+        Log.e(this.getClass().getCanonicalName(), "Failed to publish a messged from the client with the handle " + clientHandle, e);
+      }
+    } else {
+      Toast.makeText(context,"错误的命令格式",Toast.LENGTH_LONG).show();
     }
-    catch (MqttSecurityException e) {
-      Log.e(this.getClass().getCanonicalName(), "Failed to publish a messged from the client with the handle " + clientHandle, e);
-    }
-    catch (MqttException e) {
-      Log.e(this.getClass().getCanonicalName(), "Failed to publish a messged from the client with the handle " + clientHandle, e);
-    }
+
 
   }
 
